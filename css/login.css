@@ -137,15 +137,8 @@ p {
 }
 
 
-.feedback__btn {
-    display: flex;
-    flex-direction: column;
-}
 
-.fb__btn {
-    background-color: transparent;
-    color: #444;
-}
+
 
 .feedback__btn {
     display: flex;
