@@ -1,0 +1,214 @@
+@font-face {
+    font-family: 'Porsche';
+    src: url(../fonts/PorscheNext-SemiBold.otf);
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Porsche';
+    line-height: 1.5;
+    color: #333;
+    background-color: #141414;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+
+
+
+/* container
+============*/
+
+.container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+
+
+.feedback {
+    background-image: radial-gradient(ellipse at 50% 60rem, #e84e0e, #0000 40%);
+    height: 100%;
+}
+
+
+
+.feedback__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 7em;
+    color: #fff;
+}
+
+.feedback h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    width: 11em;
+    padding-bottom: 1em;
+    letter-spacing: 3px;
+
+}
+
+.feedback__input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+
+}
+
+.feedback__input input {
+    border-bottom: 1px solid #444;
+    background-color: transparent;
+    color: #fff;
+    width: 15em;
+    height: 3.5em;
+    margin-right: 1em;
+    padding-top: 9px;
+
+}
+
+.feedback input::placeholder {
+    transform: translateY(.5em);
+}
+
+
+.feedback input:focus::placeholder {
+    transform: translateY(-1.5em);
+    transition: .5s ease;
+
+}
+
+
+.feedback input:focus {
+    border-bottom-color: #fff;
+    transition: .7s ease;
+}
+
+
+.feedback__btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.fb__btn {
+    background-color: transparent;
+    color: #444;
+}
+
+.feedback__btn {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+}
+.form-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+.info-1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5em;
+}
+
+.span {
+    color: red;
+    font-size: 14px;
+}
+
+.feedback a {
+    color: #5f5f5f;
+    text-decoration: underline;
+}
+
+.fb__btn {
+    margin-top: 1em;
+    background-color: transparent;
+    color: #444;
+}
+
+.reset {
+    background: transparent;
+    color: #fff;
+    margin-top: 1em;
+    
+    
+}
+.acc {
+    background: transparent;
+    color: #fff;
+    margin-top: 1em;
+    position: relative;
+    left: 2em;
+}
+
+.feedback__arrow {
+    margin-top: 2em;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    transition: .5s ease;
+}
+
+.feedback__arrow:hover {
+    color: #e84e0e;
+}
+
+.bi-arrow-right {
+    font-size: 20px;
+}
+
+
