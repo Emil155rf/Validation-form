@@ -6,7 +6,6 @@ const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
 const inputAll = document.querySelector('.feedback__input')
 const reset = document.querySelector('.reset')
 const myForm = document.getElementById('myForm')
-const myForm2 = document.getElementById('myForm-2')
 let inp1 = document.querySelector('.inp1')
 let inp2 = document.querySelector('.inp2')
 let inp3 = document.querySelector('.inp3')
@@ -19,8 +18,6 @@ let span4 = document.querySelector('.span-number-4')
 
 let sub = document.querySelector('.feedback__arrow')
 
-
-// || 
 
 
 
@@ -50,7 +47,6 @@ sub.onclick = function (e) {
 function clear() {
     reset.addEventListener('click', () => {
         myForm.reset()
-        myForm2.reset()
     })
 }
 
@@ -82,5 +78,4 @@ function clickEnter(val1, val2) {
 
 
 clickEnter(myForm, sub)
-clickEnter(myForm2, sub)
 

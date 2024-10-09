@@ -101,10 +101,11 @@ p {
 }
 
 .feedback__input {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 5em 5em;
     justify-content: center;
     align-items: center;
-    margin-top: 1em;
 
 }
 
@@ -203,5 +204,12 @@ p {
 .bi-arrow-right {
     font-size: 20px;
 }
+
+.bi-circle:hover {
+    color: #e84e0e;
+    transition: .2s ease;
+}
+
+
 
 
