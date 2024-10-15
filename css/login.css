@@ -9,11 +9,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Porsche';
-    line-height: 1.5;
     color: #333;
     background-color: #141414;
-    margin-left: auto;
-    margin-right: auto;
     box-sizing: border-box;
 
 }
@@ -209,7 +206,6 @@ p {
     color: #e84e0e;
     transition: .2s ease;
 }
-
 
 
 
